@@ -1,0 +1,104 @@
+body {
+    		margin: 0;
+    		padding: 0;
+            background-image: url(../img/background0.jpg);
+            color: #ffffff;
+            line-height: 1.5;
+    	}
+
+    	.container {
+    	width: 95%;
+        margin: auto;
+    	}
+
+    	#branding {
+    		float: left;
+    	}
+
+    	#branding h1 {
+    		font-family: 'Anton', sans-serif;
+    		font-size: 40px;
+    	}
+
+    	header nav {
+    		float: right;
+            padding-top: 1.9%;
+    	}
+
+        header li {
+            float: left;
+            display: inline;
+            padding-right: 3em;
+            padding-left: 3em;
+        }
+
+        header li a {
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 17px;
+            color: #ffffff;
+        }
+
+        header a:hover {
+            color: #eb4034;
+        }
+
+        #main {
+            float: left;
+            padding-top: 7%;
+            padding-left: 2%;
+        }
+
+        #main h1 {
+            font-family: ;
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #hero-paragraph {
+            padding-top: 0;
+            width: 50%;
+        }
+
+        #hero-paragraph p{
+            font-family: 'Roboto', sans-serif;
+            overflow: hidden;
+        }
+
+        .cta {
+            float: left;
+            margin-top: 2.9%;
+            margin-left: 2%;
+        }
+
+        .cta a{
+            background-color: #000080;
+            color: white;
+            padding: 0.8em 1.1em;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            border-radius: 5px;
+        }
+
+        .cta a:hover {
+            background-color: #00004d;
+        }
+
+        @media (max-width: 768px) {
+           body {
+
+                float: none;
+                text-align:center;
+                width:100%;
+                margin: 0;
+                padding: 0;
+        }
+
+         header #branding, header nav, header nav ul, header nav li, header nav li a, .cta, #hero-paragraph, #hero-paragraph p {
+                float: none;
+                text-align:center;
+                width:100%;
+                /*margin: 0;
+                padding: 0;*/
+         }
+}
